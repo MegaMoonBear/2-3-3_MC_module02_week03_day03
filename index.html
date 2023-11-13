@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+    /* FadeOut Animation */
+    @keyframes fadeOut {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+    }
+    .fadeOut {
+        animation: fadeOut 2s ease forwards;
+    }
+
+    /* Slide Animation */
+    @keyframes slideIn {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-100vh); }
+    }
+    .slide {
+        animation: slideIn 2s ease forwards;
+    }
+
+    /* Grow Animation */
+    @keyframes grow {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.5); }
+    }
+    .grow {
+        animation: grow 2s ease forwards;
+    }
+</style>
+
 <body>
     <div id="navbar">
         <h1>😃</h1><h1>😃</h1><h1>😃</h1><h1>😃</h1>
@@ -14,29 +43,33 @@
         <div id="assignmentBlocks">
             <div class="assignmentBlock">
                 <h1>Fade-out</h1>
-                <h1 id="fadeInEmoji" class="assignmentEmoji">🥷🏼</h1>
+                <h1 id="ninjaEmoji">🥷🏼</h1>
                 <button
                     onclick='
-                    //*** YOUR CODE HERE ***
+                    //*** YOUR JAVASCRIPT CODE HERE ***
+                    //Assign the fadeOut class to the HTML element with the ninja emoji
+
 
                     '>Click me</button>
             </div>
             <div class="assignmentBlock">
                 <h1>Slide</h1>
-                <h1 id="slideEmoji" class="assignmentEmoji">🧘🏾‍♀️</h1>
+                <h1 id="yogaEmoji">🧘🏾‍♀️</h1>
                 <button
                     onclick='
-                    //*** YOUR CODE HERE ***
+                    //*** YOUR JAVASCRIPT CODE HERE ***
+                    //Assign the slide class to the HTML element with the yoga emoji
 
 
                     '>Click me</button>
             </div>
             <div class="assignmentBlock">
                 <h1>Grow</h1>
-                <h1 id="growEmoji" class="assignmentEmoji">😀</h1>
+                <h1 id="smileyEmoji">😀</h1>
                 <button
                     onclick='
-                    //*** YOUR CODE HERE ***
+                    //*** YOUR JAVASCRIPT CODE HERE ***
+                    //Assign the grow class to the HTML element with the smiley emoji
 
 
                     '>Click me</button>
@@ -44,6 +77,26 @@
         </div>
     </div>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
     #navbar {
         display: flex;
@@ -81,10 +134,23 @@
         margin-bottom: 3%;
     }
 
-    .assignmentEmoji {
+    #ninjaEmoji {
         margin-top: 0%;
         margin-bottom: 1%;
         font-size: 8vh;
+        display: inline-block;
+    }
+    #yogaEmoji {
+        margin-top: 0%;
+        margin-bottom: 1%;
+        font-size: 8vh;
+        display: inline-block;
+    }
+    #smileyEmoji {
+        margin-top: 0%;
+        margin-bottom: 1%;
+        font-size: 8vh;
+        display: inline-block;
     }
 </style>
 
