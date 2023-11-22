@@ -1,6 +1,7 @@
 # JavaScript Events
 
 ## Assignment: Emoji Puppeteering
+![Example](Example.gif)
 
 For this assignment you will make emojis perform an action when a "click" event happens on the webpage. (The keyframe and css blocks for the animations are already written and can be found at the top of index.html)
 
