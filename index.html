@@ -80,10 +80,16 @@
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the fadeOut class to the HTML element with the ninja emoji
+                        // Use document_object to select element with id of "ninjaEmoji" and assign it to variable called "ninjaEmojiHTML"
+                        let ninjaEmojiHTML = document.getElementById("ninjaEmoji");
 
-
+                        // Assign a string value of "fadeOut" to the "className" property on the ninjaEmojiHTML variable
+                        ninjaEmojiHTML.className = "fadeOut";
+                        
+                        //console.log(ninjaEmojiHTML)
                     '>Click me</button>
             </div>
+
             <div class="assignmentBlock">
                 <h1>Slide</h1>
                 <h1 id="yogaEmoji">🧘🏾‍♀️</h1>
@@ -91,10 +97,13 @@
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the slide class to the HTML element with the yoga emoji
-
-
+                        // Use the document_object to select the element with an id of "yogaEmoji" and assign it to a variable called "yogaEmojiHTML"
+                        let yogaEmojiHTML = document.getElementById("yogaEmoji");
+                        // Assign a string value of "slide" to the "className" property on the yogaEmojiHTML variable
+                        yogaEmojiHTML.className = "slide";
                     '>Click me</button>
             </div>
+
             <div class="assignmentBlock">
                 <h1>Grow</h1>
                 <h1 id="smileyEmoji">😀</h1>
@@ -102,8 +111,10 @@
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the grow class to the HTML element with the smiley emoji
-
-
+                        //Use document_object to select the element with id of "smileyEmoji" and assign it to variable called "smileyEmojiHTML"
+                        let smileyEmojiHTML = document.getElementById("smileyEmoji");
+                        //Assign a string value of "grow" to the "className" property on the smileyEmojiHTML variable
+                        smileyEmojiHTML.className = "grow";
                     '>Click me</button>
             </div>
             <h3>The following exercises will be more intricate.</h3>
